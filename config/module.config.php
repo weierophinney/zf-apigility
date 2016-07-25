@@ -10,13 +10,6 @@ use Zend\Db\Adapter\AdapterAbstractServiceFactory as DbAdapterAbstractServiceFac
 use Zend\ServiceManager\Factory\InvokableFactory;
 
 return [
-    'asset_manager' => [
-        'resolver_configs' => [
-            'paths' => [
-                __DIR__ . '/../asset',
-            ],
-        ],
-    ],
     'router' => [
         'routes' => [
             'zf-apigility' => [
