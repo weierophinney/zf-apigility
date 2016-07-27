@@ -155,7 +155,7 @@ class TableGatewayAbstractFactory implements AbstractFactoryInterface
      *
      * @param array $config
      * @param ContainerInterface $container
-     * @return Adapter|AdapterInterface
+     * @return AdapterInterface
      */
     protected function getAdapterFromConfig(array $config, ContainerInterface $container)
     {
